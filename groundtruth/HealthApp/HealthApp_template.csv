@@ -1,0 +1,76 @@
+EventId,EventTemplate,TemplateFlag
+E1,Alarm uploadStaticsToDB totalSteps=7163Calories:153367Floor:240Distance:5112,True
+E2,bulkSaveDetailHiHealthData() size = <*> = <*>,False
+E3,calculateAltitudeWithCache <*>,False
+E4,calculateCaloriesWithCache <*>,False
+E5,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is 20171224 oldDay is 20171223",True
+E6,"checkFirstSyncByType no such data in db ,type is 1 deviceCode is 0",True
+E7,checkInsertStatus stepStatSum or calorieStatSum is enough,False
+E8,checkInsertStatus stepSum or calorieSum is enough,False
+E9,clear(),False
+E10,closeNotification...,False
+E11,deleteHealthNotification(),False
+E12,flush sensor data,False
+E13,flush2DB result success,False
+E14,flushTempCacheToDB by stand,False
+E15,"getAppContext() isAppValid health or wear, packageName = com.huawei.health",True
+E16,getBinderPackageName packageName = com.huawei.health,False
+E17,getDiffTotalSteps= <*>,False
+E18,getStepCounterStatus,False
+E19,getStepCounterStatus= true,False
+E20,getTodayBasicStandardSteps= <*>,False
+E21,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,True
+E22,getTodayTotalDetailSteps = <*>,False
+E23,ifCanSync not! no cloud version,False
+E24,initDataPrivacy the dataPrivacy is true,False
+E25,"initDataPrivacy the dataPrivacy switch is open, start push health data!",False
+E26,initEnviroument,False
+E27,initUserPrivacy the userPrivacy is true,False
+E28,"initUserPrivacy the userPrivacy switch is open, start push user data!",False
+E29,InsertCallBack() onSuccess  type = 0 data=true,True
+E30,InsertEvent success begin:25233975 end:25233979,True
+E31,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = 4,errorMessage = ERR_DATA_INSERT",True
+E32,insertHiHealthData() checkAppType  0 appID = 1,True
+E33,insertHiHealthData() end totalTime = <*>,False
+E34,"insertHiHealthData() size = <*> = 1,One Data Type = <*> = com.huawei.health,writeStatType = 0",True
+E35,isScreenOn true,False
+E36,needAutoSync autoSyncSwitch is open,False
+E37,"new date =<*>, type=<*>,<*>.<*>,old=<*>.<*>",True
+E38,next day:steps0mLastReport7214,True
+E39,onExtend:<*> <*> 0 <*>,True
+E40,onReceive action: android.intent.action.SCREEN_OFF,False
+E41,onReceive action: android.intent.action.SCREEN_ON,False
+E42,onStandStepChanged <*>,False
+E43,processHandleBroadcastAction action:android.intent.action.SCREEN_ON,False
+E44,processHandleBroadcastAction action:android.intent.action.TIME_TICK,False
+E45,registersensorsuccess: true,False
+E46,reload : 3786 restar 0,True
+E47,REPORT : <*> <*> <*> <*>,False
+E48,reStartStepCounter,False
+E49,"saveHealthDetailData() deviceID = 2,clientID=1,id=1",True
+E50,"saveHealthDetailData() saveOneDetailData fail hiHealthData = 1513958400000,type = <*>",True
+E51,"saveRealTimeHealthDatasStat() size = 1,totalTime = 48",True
+E52,"saveStatData() type <*> = 1513958400000,statClient = 2,who is 1",True
+E53,"screen status unknown,think screen on",False
+E54,sendSyncFailedBroadcast,False
+E55,setBasicStandardSteps basicStandardStep=3786 restartSteps=0,True
+E56,setDiffTotalSteps=0,True
+E57,setGoalNotifiShownRecord 1514044800237 false,True
+E58,<*>,False
+E59,setWriteDBLastDataMinute success,False
+E60,setWriteDBLastDataMinute=25233979,True
+E61,"startInsertSportSync first 500 steps sync,do all sync",True
+E62,"startInsertSportSync start auto sync,app is 1",True
+E63,startListenerChange subscribeList = [1],True
+E64,"startSync hiSyncOption = <*> syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",True
+E65,startTimer start autoSync,False
+E66,stepSyncOrNot appSynTimes is 0,True
+E67,"stepSyncOrNot appSynTimes is 0, statsyncTimes is 0",True
+E68,theDayChanged 1514044800216,True
+E69,timeStamp <*>,False
+E70,tryToRecordAsBasicStepData bWrite true,False
+E71,tryToReloadTodayBasicSteps1514044800223|3786|0|0,True
+E72,upLoadOneMinuteDataToEngine <*>,False
+E73,uploadStaticsToDB failed message=true,False
+E74,uploadStaticsToDB() onResult  type = 4 obj=true,True
+E75,writeDataToDB size 327,True

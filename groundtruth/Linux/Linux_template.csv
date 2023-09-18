@@ -1,0 +1,116 @@
+EventId,EventTemplate,TemplateFlag
+E1,*** info [mice.c(1766)]:,True
+E2,0MB HIGHMEM available.,True
+E3,126MB LOWMEM available.,True
+E4,ACPI disabled because your bios is from 2000 and too old,True
+E5,ACPI: ACPI tables contain no PCI IRQ routing entries,False
+E6,ACPI: Interpreter disabled.,False
+E7,ACPI: Subsystem revision 20040326,True
+E8,ALERT exited abnormally with [1],False
+E9,"ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)",True
+E10,apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16ac),True
+E11,audit(1122475266.4294965305:0): initialized,True
+E12,audit: initializing netlink socket (disabled),False
+E13,Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,True
+E14,Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,True
+E15,authentication failure; logname= uid=0 euid=0 tty=<*> ruser= rhost=<*>,True
+E17,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=<*>  user=<*>,True
+E20,BIOS-e820: <*> - <*> (reserved),False
+E21,BIOS-e820: <*> - <*> (usable),False
+E22,BIOS-provided physical RAM map:,False
+E23,Bringing up loopback interface:  succeeded,False
+E24,Built 1 zonelists,True
+E25,Calibrating delay loop... 1445.88 BogoMIPS,True
+E26,Capability LSM initialized,False
+E27,check pass; user unknown,False
+E28,Checking 'hlt' instruction... OK.,False
+E29,connection from <*> <*> at <*> <*> <*> <*> 2005,True
+E30,Console: colour VGA+ 80x25,True
+E31,Couldn't authenticate user,False
+E32,"CPU 0 irqstacks, hard=02345000 soft=02344000",True
+E33,CPU: Intel Pentium III (Coppermine) stepping 06,True
+E34,"CPU: L1 I cache: 16K, L1 D cache: 16K",True
+E35,CPU: L2 cache: 256K,True
+E36,creating device node <*>,False
+E37,cupsd shutdown succeeded,False
+E38,cupsd startup succeeded,False
+E39,"Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)",True
+E40,Detected 731.219 MHz processor.,True
+E41,"DMA zone: 4096 pages, LIFO batch:1",True
+E42,DMI 2.3 present.,True
+E43,"Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)",True
+E44,Enabling fast FPU save and restore... done.,False
+E45,Enabling unmasked SIMD FPU exception support... done.,False
+E46,Failure registering capabilities with the kernel,False
+E47,getpeername (ftpd): Transport endpoint is not connected,False
+E48,HCI daemon ver 2.4 started,True
+E49,hcid startup succeeded,False
+E50,"HighMem zone: 0 pages, LIFO batch:1",True
+E51,imps2: Auto-detected intellimouse PS/2,True
+E52,Initializing CPU#0,True
+E53,Initializing Cryptographic API,False
+E54,Initializing random number generator:  succeeded,False
+E55,"Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)",True
+E56,Intel machine check architecture supported.,False
+E57,Intel machine check reporting enabled on CPU#0.,True
+E58,irqbalance startup succeeded,False
+E59,isapnp: No Plug & Play device found,False
+E60,isapnp: Scanning for PnP cards...,False
+E61,Kerberos authentication failed,False
+E62,Kernel command line: ro root=LABEL=/ rhgb quiet,False
+E63,kernel.core_uses_pid = 1,True
+E64,"klogd 1.4.1, log source = /proc/kmsg started.",True
+E65,klogd startup succeeded,False
+E66,Linux agpgart interface v0.100 (c) Dave Jones,True
+E67,Linux Plug and Play Support v0.97 (c) Adam Belay,True
+E68,Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 09:04:50 EDT 2004,True
+E69,mapped 4G/4G trampoline to ffff3000.,True
+E70,"Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)",True
+E71,"Mount-cache hash table entries: 512 (order: 0, 4096 bytes)",True
+E72,mtrr: v2.0 (20020519),True
+E73,NET: Registered protocol family 16,True
+E74,"Normal zone: 28334 pages, LIFO batch:6",True
+E75,notify question section contains no SOA,False
+E76,On node 0 totalpages: 32430,True
+E77,PCI: Invalid ACPI-PCI IRQ routing table,False
+E78,"PCI: PCI BIOS revision 2.10 entry at 0xfc0ce, last bus=1",True
+E79,PCI: Probing PCI hardware,False
+E80,PCI: Probing PCI hardware (bus 00),True
+E81,PCI: Using configuration type 1,True
+E82,PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0,True
+E83,pci_hotplug: PCI Hot Plug PCI Core version: 0.5,True
+E84,PID hash table entries: 512 (order 9: 4096 bytes),True
+E85,portmap startup succeeded,False
+E86,POSIX conformance testing by UNIFIX,False
+E87,Real Time Clock Driver v1.12,True
+E88,Received SNMP packet(s) from 67.170.148.126,True
+E89,removing device node <*>,False
+E90,restart.,False
+E91,ROOT LOGIN ON tty2,False
+E92,rpc.idmapd startup succeeded,False
+E93,rpc.statd startup succeeded,False
+E94,sdpd startup succeeded,False
+E95,sdpd v1.5 started,True
+E96,Security Scaffold v1.0.0 initialized,True
+E97,SELinux:  Initializing.,False
+E98,SELinux:  Registering netfilter hooks,False
+E99,SELinux:  Starting in permissive mode,False
+E100,selinux_register_security:  Registering secondary module capability,False
+E101,session closed for user <*>,False
+E102,session opened for user <*> by <*>,False
+E103,session opened for user root by LOGIN(uid=0),True
+E104,Setting network parameters:  succeeded,False
+E105,Starting pcmcia:  succeeded,False
+E106,syslogd startup succeeded,False
+E107,"There is already a security framework initialized, register_security failed.",False
+E108,"Total HugeTLB memory allocated, 0",True
+E109,Transparent bridge - 0000:00:1e.0,True
+E110,usbcore: registered new driver hub,False
+E111,usbcore: registered new driver usbfs,False
+E112,User unknown timed out after 900 seconds at Sat Jun 18 02:23:10 2005,True
+E113,Using tsc for high-res timesource,False
+E114,Version 1.0.6 Starting,True
+E115,VFS: Disk quotas dquot_6.5.1,True
+E116,warning: can't get client address: Connection reset by peer,False
+E117,You can enable it with acpi=force,False
+E118,zapping low mappings.,False

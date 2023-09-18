@@ -1,0 +1,28 @@
+EventId,EventTemplate,TemplateFlag
+E1,Accepted password for fztu from 119.137.62.142 port 49116 ssh2,True
+E2,Connection closed by <*> [preauth],False
+E3,Did not receive identification string from <*>,False
+E4,Disconnecting: Too many authentication failures for admin [preauth],False
+E5,Disconnecting: Too many authentication failures for root [preauth],False
+E6,error: Received disconnect from 195.154.37.122: 3: com.jcraft.jsch.JSchException: Auth fail [preauth],True
+E7,error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth],True
+E8,Failed none for invalid user <*> from <*> port <*> ssh2,False
+E9,Failed password for <*> from <*> port <*> ssh2,False
+E10,Failed password for invalid user <*> from <*> port <*> ssh2,False
+E11,fatal: Write failed: Connection reset by peer [preauth],False
+E12,input_userauth_request: invalid user <*> [preauth],False
+E13,Invalid user <*> from <*>,False
+E14,message repeated 5 times: [ Failed password for root from <*> port <*>,True
+E15,PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= <*>,True
+E16,PAM <*> more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= <*>,True
+E17,PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=root,True
+E18,PAM service(sshd) ignoring max retries; <*> > 3,True
+E19,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>,True
+E20,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*>  user=<*>,True
+E21,pam_unix(sshd:auth): check pass; user unknown,False
+E22,pam_unix(sshd:session): session closed for user fztu,True
+E23,pam_unix(sshd:session): session opened for user fztu by (uid=0),True
+E24,Received disconnect from <*> 11: Bye Bye [preauth],True
+E25,Received disconnect from <*> 11: Closed due to user request. [preauth],True
+E26,Received disconnect from 119.137.62.142: 11: disconnected by user,True
+E27,reverse mapping checking getaddrinfo for <*> <*> failed - POSSIBLE BREAK-IN ATTEMPT!,False

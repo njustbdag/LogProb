@@ -1,0 +1,51 @@
+EventId,EventTemplate,TemplateFlag
+E1,"<*> Created NT transaction (seq <*> result 0x00000000, handle <*>",True
+E2,"<*> Creating NT transaction (seq <*> objectname [6]""(null)""",True
+E3,<*> CSI perf trace:,False
+E4,<*> CSI Store <*> <*> initialized,False
+E5,"00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags = 00000004, progress = NULL, phase = 0, pdwDisposition = <*>",True
+E6,0000000c ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=FALSE applyflags=7,True
+E7,0000000a Performing 1 operations; 1 are not lock/unlock and follow:,True
+E8,"0000000b Store coherency cookie matches last scavenge cookie, skipping scavenge.",True
+E9,00000010@2016/9/27:20:40:54.787 CSI Transaction @0x47e9e0 destroyed,True
+E10,"00000009@2016/9/27:20:40:53.744 CSI Transaction @0x47e9e0 initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000002 and client id [10]""TI6.0_0:0/""",True
+E11,00000008@2016/9/28:16:00:46.635 PopulateComponentFamiliesKey - Begin,True
+E12,00000009@2016/9/28:16:01:03.072 PopulateComponentFamiliesKey - End,True
+E13,<*> WcpInitialize (wcp.dll version 0.0.0.6) called (stack <*>,True
+E14,"Disabling manifest caching, because the image is not writeable.",False
+E15,Ending the TrustedInstaller main loop.,False
+E16,Ending TrustedInstaller finalization.,False
+E17,Ending TrustedInstaller initialization.,False
+E18,Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM],True
+E19,Failed to create backup log cab. [HRESULT = 0x80070001 - ERROR_INVALID_FUNCTION],True
+E20,Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM],True
+E21,Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE],True
+E22,Idle processing thread terminated normally,False
+E23,Loaded Servicing Stack v6.1.7601.23505 with Core: C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\cbscore.dll,True
+E24,Loading offline registry hive: <*> into registry key <*> from path <*>,False
+E25,"No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.",False
+E26,NonStart: Checking to ensure startup processing was not required.,False
+E27,"NonStart: Success, startup processing not required as expected.",False
+E28,Offline image is: read-only,False
+E29,Read out cached package applicability for package: <*> ApplicableState: <*> <*>,False
+E30,Reboot mark refs incremented to: 1,True
+E31,Reboot mark refs: 0,True
+E32,Scavenge: Begin CSI Store,False
+E33,"Scavenge: Completed, disposition: 0X1",True
+E34,Scavenge: Starts,False
+E35,Session: 11152_142416105 initialized by client SPP.,True
+E36,Session: <*> initialized by client WindowsUpdateAgent.,False
+E37,SQM: Cleaning up report files older than 10 days.,True
+E38,SQM: Failed to start standard sample upload. [HRESULT = 0x80004005 - E_FAIL],True
+E39,"SQM: Failed to start upload with file pattern: C:\Windows\servicing\sqm\*_std.sqm, flags: 0x2 [HRESULT = 0x80004005 - E_FAIL]",True
+E40,SQM: Initializing online with Windows opt-in: False,False
+E41,"SQM: Queued 0 file(s) for upload with pattern: C:\Windows\servicing\sqm\*_all.sqm, flags: 0x6",True
+E42,SQM: Requesting upload of all unsent reports.,False
+E43,SQM: Warning: Failed to upload all unsent reports. [HRESULT = 0x80004005 - E_FAIL],True
+E44,Starting the TrustedInstaller main loop.,False
+E45,Starting TrustedInstaller finalization.,False
+E46,Starting TrustedInstaller initialization.,False
+E47,Startup processing thread terminated normally,False
+E48,TrustedInstaller service starts successfully.,False
+E49,Unloading offline registry hive: <*>,False
+E50,Warning: Unrecognized packageExtended attribute.,False

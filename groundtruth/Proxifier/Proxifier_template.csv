@@ -1,0 +1,9 @@
+EventId,EventTemplate,TemplateFlag
+E1,183.62.156.108:22 open through proxy socks.cse.cuhk.edu.hk:5070 SOCKS5,True
+E2,<*> open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,True
+E3,<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,True
+E4,<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061,True
+E5,"<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code <*>",True
+E6,<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy closed the connection unexpectedly.,True
+E7,<*> error : A connection request was canceled before the completion.,False
+E8,"<*> close, <*> bytes <*> sent, <*> bytes <*> received, lifetime <*>",False

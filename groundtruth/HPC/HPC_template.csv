@@ -1,0 +1,47 @@
+EventId,EventTemplate,TemplateFlag
+E1,active,False
+E2,<*>,False
+E3,blocked,False
+E4,boot  (command <*>,False
+E5,boot (command 2092) Error: HALT asserted\  cannot continue,True
+E6,bootGenvmunix  (command <*>,False
+E7,closing,False
+E8,clusterAddMember  (command <*>,False
+E9,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>,False
+E10,ClusterFileSystem: There is no server for ServerFileSystem domain <*>,False
+E11,Command has been aborted,False
+E12,Command has completed successfully,False
+E13,Component State Change: Component <*> is in the unavailable state <*>,False
+E14,configured out,False
+E15,critical,False
+E16,Failed subcommands 3406,True
+E17,Fan speeds ( <*> <*> <*> **** <*> <*> ),False
+E18,Fan speeds ( <*> 3534 <*> <*> <*> 3479 ),True
+E19,halt  (command <*>,False
+E20,inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <*>,False
+E21,Link error,False
+E22,Link error on broadcast tree <*>,False
+E23,link errors remain current,False
+E24,Link in reset,False
+E25,Link ok,False
+E26,Linkerror event interval expired,False
+E27,NIFF: node <*> detected a failed network connection on network 5.5.224.0 via interface alt0,True
+E28,NIFF: node <*> has detected an available network connection on network <*> via interface alt0,False
+E29,NIFF: node <*> has detected an available network connection on network 10.128.0.0 via interface ee0,True
+E30,NIFF: node <*> has detected an available network connection on network 10.96.0.0 via interface scip0,True
+E31,normal,False
+E32,not responding,False
+E33,not-responding,False
+E34,power/control problem,False
+E35,psu failure\ <*>,False
+E36,risBoot  (command 1903),True
+E37,risBoot (command 1903) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,True
+E38,running,False
+E39,ServerFileSystem: An ServerFileSystem domain panic has occurred on storage442,True
+E40,ServerFileSystem: ServerFileSystem domain <*> is full,False
+E41,starting,False
+E42,Targeting <*> and <*> child of command <*>,False
+E43,Targeting <*> <*>,False
+E44,Temperature (41C) exceeds warning threshold,True
+E45,wait  (command <*>,False
+E46,warning,False

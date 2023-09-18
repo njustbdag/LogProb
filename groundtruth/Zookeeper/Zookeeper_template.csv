@@ -1,0 +1,51 @@
+EventId,EventTemplate,TemplateFlag
+E1,******* GOODBYE <*> ********,False
+E2,Accepted socket connection from <*>,False
+E3,autopurge.purgeInterval set to 0,True
+E4,autopurge.snapRetainCount set to 3,True
+E5,Cannot open channel to <*> at election address <*>,False
+E6,caught end of stream exception,False
+E7,Client attempting to establish new session at <*>,False
+E8,Client attempting to renew session <*> at <*>,False
+E9,Closed socket connection for client <*> (no session established for client),False
+E10,Closed socket connection for client <*> which had sessionid <*>,False
+E11,Connection broken for id <*> my id = <*> error =,False
+E12,Connection request from old client <*> will be dropped if server is in r-o mode,False
+E13,Established session <*> with negotiated timeout <*> for client <*>,False
+E14,Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running,True
+E15,Expiring session <*> timeout of <*> exceeded,False
+E16,First is 0x0,True
+E17,Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4,True
+E18,FOLLOWING,False
+E19,FOLLOWING - LEADER ELECTION TOOK - <*>,False
+E20,Getting a snapshot from leader,False
+E21,Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper,True
+E22,Have quorum of supporters; starting up and setting last processed zxid: 0xb00000000,True
+E23,"Have smaller server identifier, so dropping the connection: (2, 1)",True
+E24,Interrupted while waiting for message on queue,False
+E25,Interrupting SendWorker,False
+E26,LOOKING,False
+E27,maxSessionTimeout set to -1,True
+E28,minSessionTimeout set to -1,True
+E29,My election bind port: 0.0.0.0/0.0.0.0:3888,True
+E30,"New election. My id =  1, proposed zxid=0x700000000",True
+E31,Notification time out: <*>,False
+E32,"Notification: 3 (n.leader), 0x100001564 (n.zxid), 0x3 (n.round), FOLLOWING (n.state), 3 (n.sid), 0x2 (n.peerEPoch), FOLLOWING (my state)",True
+E33,"Notification: 2 (n.leader), 0xa0000009a (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 1 (n.sid), 0xa (n.peerEPoch), LEADING (my state)",True
+E34,"Notification: 3 (n.leader), 0x700000197 (n.zxid), 0x1 (n.round), LEADING (n.state), 3 (n.sid), 0x7 (n.peerEPoch), LOOKING (my state)",True
+E35,"Notification: 3 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0xb (n.peerEPoch), FOLLOWING (my state)",True
+E36,"Notification: <*> (n.leader), <*> (n.zxid), 0x2 (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",True
+E37,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",False
+E38,Processed session termination for sessionid: <*>,False
+E39,Reading snapshot /var/lib/zookeeper/version-2/snapshot.b00000084,True
+E40,Received connection request <*>,False
+E41,Revalidating client: <*>,False
+E42,Send worker leaving thread,False
+E43,Sending DIFF,False
+E44,Server <*>,False
+E45,shutdown of request processor complete,False
+E46,Snapshotting: <*> to <*>,False
+E47,Starting quorum peer,False
+E48,tickTime set to 2000,True
+E49,Unexpected exception causing shutdown while sock still open,False
+E50,Unexpected Exception:,False

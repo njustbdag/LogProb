@@ -1,0 +1,167 @@
+EventId,EventTemplate,TemplateFlag
+E1,*** register callback for com.android.systemui.statusbar.policy.KeyguardMonitor@712d093,True
+E2,*** unregister callback for com.android.systemui.statusbar.policy.KeyguardMonitor@712d093,True
+E3,*** unregister callback for null,False
+E4,"[HSM] stayAwake false uid: 10111, pid: 28601",True
+E5,[PhoneIntfMgr] getDataEnabled: subId=1 phoneId=1,True
+E6,[PhoneIntfMgr] getDataEnabled: subId=1 retVal=true,True
+E7,java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token,True
+E8,android.util.AndroidRuntimeException: Must execute in UI,True
+E9,abandonAudioFocus,False
+E10,"acquire lock=<*>, flags=0x1, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>",True
+E11,"Acquiring suspend blocker ""PowerManagerService.WakeLocks"".",False
+E12,ACTION_BATTERY_CHANGED AMP: 0; Volt: 0,True
+E13,ACTION_BATTERY_CHANGED pluggedType: 0,True
+E14,"ACTIVITY check resid: com.example.android.notepad, size=<*>",True
+E15,"ActivityManagerService,attachApplication,callingPid = <*>",False
+E16,ActivityRecord info: <*> <*> euid: 0,True
+E17,addNotification <*>,False
+E18,"animateCollapsePanels:flags=0, force=false, delayed=false, mExpandedVisible=false",True
+E19,"animateCollapsePanels:flags=0, force=false, delayed=false, mExpandedVisible=true",True
+E20,"animateCollapsePanels:flags=2, force=true, delayed=true, mExpandedVisible=true",True
+E21,"Animating brightness: target=38, rate=200",True
+E22,Application requested orientation <*> got rotation 0 which has compatible metrics,True
+E23,applyOptionsLocked: Unknown animationType=0,True
+E24,ApStaDisabledState what=155652,True
+E25,Bad activity token: android.os.BinderProxy@2bd79ce,True
+E26,battery changed pluggedType: 0,True
+E27,cancelAutohide,False
+E28,"cancelNotification,cancelNotificationLocked,callingUid = <*> = <*>",False
+E29,"cancelNotification,index:<*>",False
+E30,"cancelNotificationLocked called,tell the app,reason = <*>",False
+E31,"cancelNotificationLocked,remove =com.tencent.mobileqq",True
+E32,cancelNotificationLocked:0|com.tencent.mobileqq|121|null|10111,True
+E33,"cancelNotificationWithTag pid 28601,uid = 10111,tag = null,pkg =com.tencent.mobileqq,id =<*>",True
+E34,cancelPeek: false,False
+E35,ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000,True
+E36,cleanUpApplicationRecord -- <*>,False
+E37,"cleanUpApplicationRecordLocked, pid: <*> restart: false",False
+E38,"cleanUpApplicationRecordLocked, reset pid: <*> euid: 0",True
+E39,closeQs,False
+E40,DefaultState what=155652,True
+E41,Destroying surface <*> called by <*>,False
+E42,disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings >,False
+E43,disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >,False
+E44,enqueueNotificationInternal: n.getKey = <*>,False
+E45,enqueueNotificationInternal: pkg=com.tencent.mm id=4097 notification=Notification(pri=1 contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE),True
+E46,enqueueNotificationInternal: pkg=com.tencent.mobileqq id=121 notification=Notification(pri=1 contentView=null vibrate=[100] sound=null tick defaults=0x0 flags=0x11 color=0x00000000 vis=PRIVATE),True
+E47,"flingToHeight: vel=0.0, expand=false, target=0.0, collapseSpeedUpFactor=1.0, expandBecauseOfFalsing=false",True
+E48,"flingToHeight: vel=2849.079, expand=true, target=553.0, collapseSpeedUpFactor=1.0, expandBecauseOfFalsing=false",True
+E49,getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq,True
+E50,getCellLocation is blocked by permission manager uid:10111 pid:28601,True
+E51,getDevicesForStream  streamType: 3,True
+E52,getLastAudibleStreamVolume  treamType: <*>,False
+E53,getMode...,False
+E54,getNeighboringCellInfo calling app is com.amap.android.ams,True
+E55,"getRecentTasks: num=<*>,flags=62,totalTasks=46",True
+E56,getRecentTasks: <*>,False
+E57,getRingerMode...,False
+E58,getRingtonePlayer...,False
+E59,getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output,False
+E60,getStreamVolume  treamType: 5,True
+E61,getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output,False
+E62,handleBatteryUpdate,False
+E63,handleTimeUpdate,False
+E64,HBM brightnessIn =38,True
+E65,HBM brightnessOut =38,True
+E66,instantCollapse,False
+E67,"interceptKeyBeforeQueueing: key <*> , result : 1",True
+E68,interceptKeyTq <*> interactive=true keyguardActive=false policyFlags=2b000002 down false canceled false,True
+E69,interceptKeyTq <*> interactive=true keyguardActive=false policyFlags=2b000002 down true canceled false,True
+E70,isBluetoothA2dpOn...,False
+E71,isBluetoothScoOn...,False
+E72,isMusicActive...,False
+E73,isSimPinSecure mSimDatas is null or empty,False
+E74,isWiredHeadsetOn...,False
+E75,Killing 23484:com.android.calendar/u0a13 (adj 906): empty for 1810s,True
+E76,logNotificationVisibilityChanges runInThread over,False
+E77,logNotificationVisibilityChanges runInThread start,False
+E78,makeExpandedInvisible: mExpandedVisible=false,False
+E79,makeExpandedInvisible: mExpandedVisible=true,False
+E80,Marking notification as seen <*>,False
+E81,mHeadsUpExistenceChangedRunnable,False
+E82,mVisiblity.getValue is false,False
+E83,"new Process app=ProcessRecord{6eaaf00 0:com.tencent.mobileqq:qzone/u0a111}, name: com.tencent.mobileqq:qzone, euid: 0",True
+E84,<*> <*>,False
+E85,onExpandingFinished,False
+E86,onExpandingStarted,False
+E87,"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, <*> <*> toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, <*> <*> deviceId=3, source=0x1002 }, mBlockTouches=false",True
+E88,"onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, <*> <*> toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, <*> <*> deviceId=3, source=0x1002 }, mBlockTouches=false",True
+E89,onNotificationClick called,False
+E90,onNotificationExpansionChanged called,False
+E91,onNotificationVisibilityChanged called,False
+E92,"onReceive, action:android.intent.action.BATTERY_CHANGED",True
+E93,<*> <*> <*>,False
+E94,onTrackingStarted,False
+E95,onTrackingStopped: true,False
+E96,"orientation change is complete, call stopFreezingDisplayLocked",False
+E97,"overlapAmount:<*>, previousNotificationEnd:0.0, newYTranslation:<*>, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():<*>",True
+E98,Pid:28601 MediaPlayer destructor,True
+E99,playSoundEffect   effectType: 0,True
+E100,"printFreezingDisplayLogsopening app wtoken = AppWindowToken{9f4ef63 token=Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}}, allDrawn= false, startingDisplayed =  false, startingMoved =  false, isRelaunching =  false",True
+E101,Process com.tencent.mobileqq:qzone (pid 12236) has died,True
+E102,querySoundEffectsEnabled...,False
+E103,"ready=true,policy=3,wakefulness=1,wksummary=<*>,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0",True
+E104,received broadcast <*>,False
+E105,Received TIME_TICK alarm; rescheduling,False
+E106,RefreshBatteryInfo isBatteryLow: 23,True
+E107,registerCallback not in UI.,False
+E108,"release:lock=<*>, flg=0x0, tag=""<*>"", name=<*>, ws=<*>, uid=<*>, pid=<*>",True
+E109,"Releasing suspend blocker ""PowerManagerService.WakeLocks"".",False
+E110,<*> <*> <*> broadcastIntent}}) changed bounds; rebatching,False
+E111,removeNotification:0|com.tencent.mobileqq|121|null|10111,True
+E112,removeNotificationChildren,False
+E113,resumeSuspendedAutohide,False
+E114,"rotationForOrientationLw(orient=<*>, last=0); user=0 USER_ROTATION_LOCKED",True
+E115,schedulePeek,False
+E116,scheduleTimeTickEvent triggerAtTime = <*>,False
+E117,Scheduling restart of crashed service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService in 1000ms,True
+E118,Screen frozen for +1s0ms due to Window{ca98d5 u0 com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity},True
+E119,"sending alarm <*> type 3 when <*> <*> PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}},repeatInterval = 0,listenerTag =null",True
+E120,"sending alarm <*> type 3 when <*> PendingIntent{1749923: PendingIntentRecord{9600e20 android broadcastIntent}}},repeatInterval = 0,listenerTag =time_tick",True
+E121,Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system 2227:com.android.systemui/u0a37 pkg com.android.systemui,True
+E122,"setDataSource(166, 0, 576460752303423487)",True
+E123,setLightsOn(true),False
+E124,setSpeakerphoneOn  on: true,False
+E125,setSpeakerphoneOn on:true,False
+E126,"setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*>  fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - <*>, <*>), dockedStackBounds=Rect(0, 0 - 0, 0)",True
+E127,setWiredDeviceConnectionState  type: <*>  state: 0,True
+E128,shouldBlockLocation  ret:false,False
+E129,shouldBlockLocation  ret:true,False
+E130,shouldBlockLocation running ...,False
+E131,Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 t761}}} -- going to hide,True
+E132,"Skipping, withExcluded: false, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }",True
+E133,"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.VIEW dat=file:///storage/emulated/0/Tencent/QQfile_recv/b.apk typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) }",True
+E134,"Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }",True
+E135,"Skipping, withExcluded: false, tr.intent:Intent { <*> <*> (has extras) }",False
+E136,"Skipping, withExcluded: false, tr.intent:Intent { flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[264,444][920,908] }",True
+E137,"Start dump, calling from : pid=12782, uid=1000",True
+E138,Start proc 13003:com.tencent.mobileqq:qzone/u0a111 for service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService,True
+E139,"START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=<*> bnds=<*>,1011]} from uid 10057 on display 0",True
+E140,START u0 {act=com.tencent.mobileqq.action.MAINACTIVITY flg=0x14000000 cmp=com.tencent.mobileqq/.activity.SplashActivity (has extras)} from uid 10111 on display 0,True
+E141,START u0 {flg=0x24000000 cmp=com.tencent.mm/.ui.LauncherUI (has extras)} from uid 10112 on display 0,True
+E142,startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=0x24000000 cmp=com.tencent.mm/.ui.LauncherUI (has extras) },True
+E143,startAnimation begin,False
+E144,startAnimation end,False
+E145,"state.clipTopAmount:<*>, i:0",True
+E146,stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=0,True
+E147,stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=false,False
+E148,suspendAutohide,False
+E149,"Taking screenshot from Surface with crop:[Rect(0, 48 - 720, 1208)], width:[432], height:[696], minLayer:<*>, maxLayer:<*>, inRotation:[false], rot:[0]",True
+E150,The change in focus caused us to need to do a layout begin,False
+E151,The change in focus caused us to need to do a layout end,False
+E152,Unable to start service Intent { act=com.tencent.android.tpush.action.keepalive cmp=com.qqgame.hlddz/com.tencent.android.tpush.service.XGPushService } U=0: not found,True
+E153,unregisterAudioFocusListener...,False
+E154,updateChargingLocked: charging=false,False
+E155,"updateClipping isOverlap:false, getTopPadding=333.0, Translation=<*>",True
+E156,"updateClipping isOverlap:true, getTopPadding=333.0, Translation=<*>",True
+E157,updateDimmedActivatedHideSensitive overlap:false,False
+E158,updateDimmedActivatedHideSensitive overlap:true,False
+E159,"updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=0, mPlugType=0, mBatteryLevel=23",True
+E160,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?false",False
+E161,"updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?true",False
+E162,"updateLightsLocked,turn off notificationLight",False
+E163,updateNotificationShade: <*> <*>,False
+E164,"userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=1000", event=<*>
+E165,visible is <*>,False
+E166,visible is <*> gt 0,True

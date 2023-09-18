@@ -1,0 +1,150 @@
+EventId,EventTemplate,TemplateFlag
+E1,(C) 2000-2002 Netfilter core team,True
+E2,(root) CMD (/projects/tbird/temps/get_temps <*>,False
+E3,(root) CMD (run-parts /etc/cron.hourly),False
+E4,(supports S0 S4 S5),True
+E5,... autorun DONE.,False
+E6,[ib_sm_sweep.c:1455]: No topology change,True
+E7,[ib_sm_sweep.c:1482]: No configuration change required,True
+E8,[ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************,True
+E9,<*> (Release Date: <*> <*>,False
+E10,<*> (v001 DELL PE BKC 0x00000001 MSFT <*> @ <*>,True
+E11,"sys_ia32.c,v 1.32 2002/03/24 13:02:28 ak Exp $",True
+E12,"i8042 AUX port at 0x60,0x64 irq 12",True
+E13,"i8042 KBD port at 0x60,0x64 irq 1",True
+E14,4.1.0-ioctl (2003-12-10) initialised: #36#@#37#,True
+E15,"<*> from=root, <*> class=0, nrcpts=1, <*> relay=#7#@localhost",True
+E16,"<*> to=root, ctladdr=root (0/0), <*> xdelay=00:00:00, mailer=relay, <*> relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]",True
+E17,allocating divert_blk for <*>,False
+E18,"apic_id <*> version 32, address <*> GSI <*>",True
+E19,asking for cache data failed,False
+E20,Assuming 33MHz system bus speed for PIO modes; override with idebus=xx,True
+E21,assuming drive cache: write through,False
+E22,Autodetecting RAID arrays.,False
+E23,autorun ...,False
+E24,Cannot open file /dev/logsurfer for writing (No such file or directory),False
+E25,CentOS-4 (Kernel Module GPG key),True
+E26,Changing permissions on special file /dev/logsurfer,False
+E27,colour VGA+ 80x25,True
+E28,Compressed image found at block 0,True
+E29,"connection from ""#28#""",True
+E30,connection lost: 'Connection closed.',False
+E31,Creating Topspin /dev entries:,False
+E32,data_thread() got not answer from any <*> datasource,False
+E33,Detected 3591.360 MHz processor.,True
+E34,"Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report",True
+E35,DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1,True
+E36,DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1,True
+E37,DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,True
+E38,DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1,True
+E39,DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1,True
+E40,DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.,True
+E41,Direct-Access ANSI SCSI revision: 02,True
+E42,Disabled at runtime.,False
+E43,Disk quotas dquot_6.5.1,True
+E44,error: Bind to port 22 on 0.0.0.0 failed: Address already in use.,True
+E45,<*> e1000_probe: Intel(R) PRO/1000 Network Connection,True
+E46,eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex,True
+E47,fw version:[516A] bios version:[H418],True
+E48,gmetad startup succeeded,False
+E49,Hash tables configured (established 262144 bind 65536),True
+E50,HPET id: 0xffffffff base: 0xfed00000,True
+E51,initialized,False
+E52,initializing netlink socket (disabled),False
+E53,Initializing.,False
+E54,Installing public key data,False
+E55,INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl),True
+E56,INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level),True
+E57,Intel(R) Xeon(TM) CPU 3.60GHz stepping 03,True
+E58,Interpreter enabled,False
+E59,IOAPIC <*> <*> <*>,False
+E60,<*> used by override.,False
+E61,kernel time sync disabled 0041,True
+E62,kernel time sync enabled 0001,True
+E63,L2 cache: 2048K,True
+E64,LAPIC <*> <*> enabled),False
+E65,LAPIC_NMI <*> high edge lint[0x1]),True
+E66,Local APIC address 0xfee00000,True
+E67,Local disconnected: Connection closed.,False
+E68,LSI Logic MegaRAID driver,False
+E69,"md driver 0.90.0 MAX_MD_DEVS=256, MD_SB_DISKS=27",True
+E70,MegaRAID Model: LD 0 RAID1 139G Rev: 516A,True
+E71,mounted filesystem with ordered data mode.,False
+E72,Mounted root (ext2 filesystem).,False
+E73,Mounting NFS filesystems: succeeded,False
+E74,Mounting other filesystems: failed,False
+E75,My unqualified host name <*> unknown; sleeping for retry,False
+E76,no floppy controllers found,False
+E77,not allocating divert_blk for non-ethernet device <*>,False
+E78,Now running on #29#'s privileges.,True
+E79,passed.,False
+E80,PCI Hot Plug PCI Core version: 0.5,True
+E81,"PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>",False
+E82,PCI Interrupt Link <*> (IRQs 3 4 5 6 7 10 11 12) <*>,True
+E83,PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 10 *11 12),True
+E84,"PCI Interrupt Link <*> (IRQs 3 4 5 6 7 10 11 12) *0, disabled.",True
+E85,PCI Interrupt Routing Table <*>,False
+E86,PCI Root Bridge [PCI0] (00:00),True
+E87,PE/PV Model: 1x2 SCSI BP Rev: 1.0,True
+E88,Physical Processor ID: <*>,False
+E89,portmap startup succeeded,False
+E90,Power Button (FF) [PWRF],False
+E91,probe new device 0x1028:0x0013:0x1028:0x016c: bus 2:slot 14:func 0,True
+E92,probe of vesafb0 failed with error -6,True
+E93,Probing PCI hardware (bus 00),True
+E94,Processor <*> (supports C1),False
+E95,Processor ANSI SCSI revision: 02,True
+E96,PS/2 mouse device common for all mice,True
+E97,Reading included configuration file: <*> <*> <*>,False
+E98,Received SNMP packet(s) from #34#,True
+E99,registered new driver hiddev,False
+E100,registered new driver hub,False
+E101,registered new driver usbfs,False
+E102,registered new driver usbhid,False
+E103,Registered protocol family <*>,False
+E104,Registering netfilter hooks,False
+E105,Registering secondary module capability,False
+E106,removing <*>,False
+E107,RNG not detected,False
+E108,"root=LABEL=/ initrd=/x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin console=tty0 console=ttyS0,19200 fastboot BOOT_IMAGE=/x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr",True
+E109,"routing cache hash table of 65536 buckets, 1024Kbytes",True
+E110,rpc.statd startup succeeded,False
+E111,RRD_update <*> illegal attempt to update using time <*> when last update time is <*> (minimum one second step),False
+E112,RSDP (v000 DELL ) @ 0x00000000000fd650,True
+E113,scanning scsi channel 0 [Phy 0] for non-raid devices,True
+E114,scanning scsi channel 1 [virtual] for logical drives,True
+E115,sda1 sda2 sda3 sda4,False
+E116,Server listening on :: port 22.,True
+E117,session closed for user root,False
+E118,session opened for user root by (uid=0),False
+E119,START: tftp pid=16563 from=10.100.4.251,True
+E120,Started working: 1 available service,True
+E121,Starting in permissive mode,False
+E122,Starting ts_fixup: succeeded,False
+E123,Subsystem revision 20040816,True
+E124,succeeded,False
+E125,synchronized to <*> stratum <*>,False
+E126,syslog-ng startup succeeded,False
+E127,syslog-ng version 1.6.7 starting,True
+E128,time reset +0.182379 s,True
+E129,"Trace cache: 12K uops, L1 D cache: 16K",True
+E130,Transparent bridge - 0000:00:1e.0,True
+E131,unable to qualify my own domain name <*> -- using short name,False
+E132,Unknown cmd fd(5) cmd(80081272){00} arg(ffffda44) on /dev/sda,True
+E133,Unregistering netfilter hooks,False
+E134,"User #29#, coming from #30#, authenticated.",True
+E135,Using 14.318180 MHz HPET timer.,True
+E136,Using ACPI for IRQ routing,False
+E137,Using configuration type 1,True
+E138,Using HPET based timekeeping.,False
+E139,Using IOAPIC for interrupt routing,False
+E140,Using MMCONFIG at e0000000,True
+E141,Using software bounce buffering for IO (SWIOTLB),False
+E142,v2.0 (20020519),True
+E143,v2.0:USB HID core driver,True
+E144,Version 1.0.6 Starting,True
+E145,Wait for ready failed before probe !,False
+E146,Warning: we failed to resolve data source name <*>,False
+E147,Warning: we failed to resolve trusted host name dadmin3 dadmin4,True
+E148,xinetd startup succeeded,False
+E149,xinetd Version 2.3.13 started with libwrap loadavg options compiled in.,True

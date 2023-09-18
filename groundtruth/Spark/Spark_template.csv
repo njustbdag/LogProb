@@ -1,0 +1,37 @@
+EventId,EventTemplate,TemplateFlag
+E1,<*> Committed,False
+E2,Block <*> stored as bytes in memory (estimated size <*> free <*> KB),False
+E3,Block <*> stored as values in memory (estimated size <*> free <*> KB),False
+E4,"Changing modify acls to: yarn,curi",True
+E5,"Changing view acls to: yarn,curi",True
+E6,Connecting to driver: spark://CoarseGrainedScheduler@10.10.34.11:48069,True
+E7,Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0147/blockmgr-70293f72-844a-4b39-9ad6-fb0ad7e364e4,True
+E8,File Output Committer Algorithm version is 1,True
+E9,Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver,False
+E10,Found block <*> locally,False
+E11,Got assigned task <*>,False
+E12,Input split: <*>,False
+E13,"mapred.job.id is deprecated. Instead, use mapreduce.job.id",False
+E14,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id",False
+E15,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap",False
+E16,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",False
+E17,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id",False
+E18,MemoryStore started with capacity 17.7 GB,True
+E19,"Partition <*> not found, computing it",False
+E20,Reading broadcast variable <*> took <*> ms,False
+E21,Registered BlockManager,False
+E22,"Registered signal handlers for [TERM, HUP, INT]",False
+E23,Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-07:55904],True
+E24,Running task <*> in stage <*> (TID <*>,False
+E25,Saved output of task <*> to <*>,False
+E26,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",False
+E27,Server created on 40984,True
+E28,Slf4jLogger started,False
+E29,Started reading broadcast variable <*>,False
+E30,Starting executor ID 5 on host mesos-slave-07,True
+E31,Starting remoting,False
+E32,Successfully registered with driver,False
+E33,Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40984.,True
+E34,Successfully started service 'sparkExecutorActorSystem' on port 55904.,True
+E35,Times: total = <*> boot = <*> init = <*> finish = <*>,False
+E36,Trying to register BlockManager,False
